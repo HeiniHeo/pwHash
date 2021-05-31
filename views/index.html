@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!--로그인 버튼 누르면 로그인 레이어 팝업-->
+    <button id="loginBtn">login</button>
+    <a href="/user/info">user info</a>
+    <div class="layerPopup">
+        <div class="loginPopup">
+            <div id="loginForm">
+                <h1>LOGIN</h1>
+                <input type="text" name="userid" id="userid" placeholder="insert your id">
+                <input type="password" name="userpw" id="userpw" placeholder="insert your password">
+                <button id="localLogin" class="loginSubmit">Login</button>
+                <button id="kakaoLogin" class="loginSubmit kakao">Kakao Login</button>
+                <p class="joinWord">JOIN US!
+                    <a href="/user/join"><span class="joinBtn">JOIN</span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
